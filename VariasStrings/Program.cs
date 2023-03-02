@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace VariasStrings
 {
@@ -6,6 +7,10 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            // Exercise 6 variables
+            double xx = 0.12345;
+            int ii = 18;
+
             // String variables
             string s1 = "Hello World \u2605";
             string s2 = @"Hello World \u2605";
@@ -48,6 +53,12 @@ namespace VariasStrings
             // String formats in console writing
             Console.WriteLine("z value is {0}", 3);
             Console.WriteLine(@"Verbatim x value is {0}", x);
+
+            // Print the conditions of exercise 6
+            Console.WriteLine($"xx={xx:f2}");
+            Console.WriteLine($"xx={xx:p1}");
+            Console.WriteLine(ii.ToString("x"));
+            Console.WriteLine(ii.ToString("C", CultureInfo.CurrentCulture));
         }
     }
 }
