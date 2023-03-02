@@ -2,8 +2,15 @@
 
 namespace Argumentos
 {
+    /// <summary>
+    /// The `Program` class contains the main behavior of the program.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// The main entry point for the program.
+        /// </summary>
+        /// <param name="args">Command line arguments passed to the program.</param>
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
