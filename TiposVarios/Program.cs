@@ -35,6 +35,14 @@ namespace TiposVarios
             Console.WriteLine(realNumber1);
             Console.WriteLine(realNumber2);
             Console.WriteLine(realNumber3);
+
+            // Boolean variables
+            bool isTrue = true;
+            bool isFalse = false;
+
+            // Print the bool variables
+            Console.WriteLine(isTrue);
+            Console.WriteLine(isFalse);
         }
     }
 }
