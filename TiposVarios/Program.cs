@@ -25,6 +25,16 @@ namespace TiposVarios
             Console.WriteLine(star);
             Console.WriteLine(lucky7);
             Console.WriteLine(laoEllipsis);
+
+            // Real variables
+            float realNumber1 = 6.69f;
+            double realNumber2 = 5.57;
+            decimal realNumber3 = 9.81m;
+
+            // Print the real variables
+            Console.WriteLine(realNumber1);
+            Console.WriteLine(realNumber2);
+            Console.WriteLine(realNumber3);
         }
     }
 }
